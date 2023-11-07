@@ -13,7 +13,7 @@ function Client() {
             </div>
         <div className='d-flex flex-wrap mt-5 test'>
             <ClientTestimonial image={Profile1} title={"Kelly Riley"} description={"Redsky"} /> 
-            <ClientTestimonial className="my-custom-class" image={Profile_2} title={"Oliver Robinson"} description={"Yesgroup"} /> 
+            <ClientTestimonial className="my-custom-class" id={'card2'} image={Profile_2} title={"Oliver Robinson"} description={"Yesgroup"} /> 
             <ClientTestimonial image={Profile_3} title={"Nicole Brown"} description={"Good Box"} /> 
         </div>
     </div>

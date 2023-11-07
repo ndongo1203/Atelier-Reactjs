@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ClientTestimonial({ image, title, description }) {
+function ClientTestimonial({ image, title, description, id}) {
     return (
-        <div className='ClientTestimonial col-md-4 mb-4'>
-            <div className="card border-0 bg-white shadhaw-sm me-3 p-3 mb-4">
+        <div className='ClientTestimonial col-md-4 mb-4' id={id}>
+            <div className="card border-0 bg-white shadhaw-sm me-4 mt-4gi p-3 mb-4">
                 <div className="text-center">
                     <img src={image} className="card-img-top rounded-circle" alt="" />
                     <div className="card-body">
