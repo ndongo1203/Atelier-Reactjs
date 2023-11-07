@@ -1,4 +1,5 @@
 import React from 'react'
+import './Techserve.css'
 
 function TechserveFooter() {
   return (
@@ -14,19 +15,19 @@ function TechserveFooter() {
         <div class="col-md-6">
             <div className="m-5 footer-liste">
                 <ul class="me-2 ms-auto mb-2 mb-lg-0 d-flex">
-                    <li class="nav-item me-3">
+                    <li class="nav-item me-2">
                         <a class="nav-link active text-dark" aria-current="page" href="#Home">Home</a>
                     </li>
-                    <li class="nav-item me-3">
+                    <li class="nav-item me-2">
                         <a class="nav-link text-dark" href="#About">About Us</a>
                     </li>
-                    <li class="nav-item me-3">
+                    <li class="nav-item me-2">
                         <a class="nav-link text-dark"  href="#Service">Services</a>
                     </li>
-                    <li class="nav-item me-3">
+                    <li class="nav-item me-2">
                         <a class="nav-link text-dark" href='#News' >News</a>
                     </li>
-                    <li class="nav-item me-3">
+                    <li class="nav-item me-2">
                         <a class="nav-link text-dark" href='#Contact'>Contacts</a>
                     </li>
                     <li class="nav-item text-dark">
@@ -38,7 +39,7 @@ function TechserveFooter() {
                     <i class="bg-light bi bi-twitter mx-4"></i>
                     <i class="bg-light bi bi-twitch mx-4"></i>
                 </div>
-                <p className="text-dark text-end me-3 mt-4">Copyright ©  All Rights Reserved, 2017</p>
+                <p className="text-dark Foter-Test text-end me-3 mt-4">Copyright ©  All Rights Reserved, 2017</p>
             </div>
         </div>
     </div>

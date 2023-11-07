@@ -8,6 +8,10 @@ body{
     background:rgb(250, 248, 248) !important;
 }
 
+.scrole{
+    z-index: 100;
+}
+
 .header{
     background-image: url('../Images/Image2.jpg');
     background-size: cover;
@@ -81,7 +85,7 @@ body{
 
 @media screen and (max-width: 768px) {
     .this-nav {
-        width: 90%;
+        width: 80%;
     }
 
     /* .page{
@@ -112,12 +116,12 @@ body{
 
     .footer-liste ul li{
         position: relative;
-        right: 70px;
+        right: 60px !important;
+        line-height: 15px;
     }
 
-    .text-end{
-        position: relative;
-        right: 40px;
+    .footer-liste .Foter-Test{
+        width: 100%;
     }
 }
 

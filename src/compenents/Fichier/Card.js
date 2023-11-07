@@ -7,7 +7,7 @@ import Image6 from '../Images/Image6.jpg';
 
 function Card() {
   return (
-    <div>
+    <div classeName= "scrole">
       <section className="card-img mt-5">
         <div className="container">
           <div className="row g-0">
